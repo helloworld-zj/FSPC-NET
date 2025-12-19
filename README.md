@@ -1,4 +1,4 @@
-# FSPC-NET
+<img width="1500" height="500" alt="myplot4" src="https://github.com/user-attachments/assets/1ba63fde-aeee-4cd5-8768-20744274ee2d" /># FSPC-NET
 
 欢迎访问本仓库！本仓库旨在公开论文中的代码实现及相关补充实验结果。
 
@@ -10,14 +10,15 @@
 - **实验目的**：评估模型对关键参数γ, α, and τ的稳定性和敏感程度。  
 - **实验方法**：逐一调整参数值，记录模型性能变化。
 - **实验数据**：Fundus眼底四个领域的数据。  
-- **实验结果**：
-### 在领域1上不同参数对性能的影响
+
+**1.在领域1上：**
 <img width="1500" height="500" alt="myplot1" src="https://github.com/user-attachments/assets/129f0a49-ddde-4a6f-b474-90e6d4ed1c60" />
-### 在领域2上不同参数对性能的影响
+**2.在领域2上：**
 <img width="1500" height="500" alt="myplot2" src="https://github.com/user-attachments/assets/1617d3a2-aea8-4988-818d-6a696b8eaaa2" />
-### 在领域3上不同参数对性能的影响
+**3.在领域3上：**
 <img width="1500" height="500" alt="myplot3" src="https://github.com/user-attachments/assets/4e2ca473-3fca-491a-b569-4eff6f0ec2c3" />
-### 在领域4上不同参数对性能的影响
+**4.在领域4上：**
 <img width="1500" height="500" alt="myplot4" src="https://github.com/user-attachments/assets/01906785-d073-470a-a37e-a99be85f5620" />
+
 - **分析结论**：  
 简要说明从图表中观察到的趋势和结论。
