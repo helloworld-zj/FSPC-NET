@@ -12,7 +12,8 @@
 - **实验数据**：Fundus眼底四个领域的数据。  
 
 **1.在领域1上：**
-<img width="1500" height="500" alt="myplot1" src="https://github.com/user-attachments/assets/129f0a49-ddde-4a6f-b474-90e6d4ed1c60" />
+<img width="1500" height="500" alt="myplot11" src="https://github.com/user-attachments/assets/cc9b64f0-7be8-4674-9be2-66cd1b97aa46" />
+
 **2.在领域2上：**
 <img width="1500" height="500" alt="myplot2" src="https://github.com/user-attachments/assets/1617d3a2-aea8-4988-818d-6a696b8eaaa2" />
 **3.在领域3上：**
