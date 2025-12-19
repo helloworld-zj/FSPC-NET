@@ -1,4 +1,4 @@
-<img width="1500" height="500" alt="myplot4" src="https://github.com/user-attachments/assets/1ba63fde-aeee-4cd5-8768-20744274ee2d" /># FSPC-NET
+# FSPC-NET
 
 欢迎访问本仓库！本仓库旨在公开论文中的代码实现及相关补充实验结果。
 
