@@ -51,11 +51,12 @@ Objective: To visually evaluate how amplitude‑based frequency‑domain operati
 Method: For a paired source/target example, we (1) perform a spatial‑domain style transfer, (2) perform a frequency‑domain style transfer by swapping/perturbing amplitude statistics while keeping phase fixed, and (3) visualize reconstructed RGB images, amplitude maps, and phase maps. A zoomed phase‑residual highlights preserved structural cues.
 Data: Example fundus image pair drawn from the datasets used in our study (multi‑center fundus images).
 ### Visualization (figure)
+![Snipaste_2026-01-05_15-02-11](https://github.com/user-attachments/assets/ef0a9a50-ee48-4725-a46a-f39632460a6e)
+[Figure: Frequency-domain visualization](https://github.com/user-attachments/files/24428383/22_english.pdf)
 Layout (columns left → right): Source Domain | Target Domain | Spatial‑Domain Style Transfer | Frequency‑Domain Style Transfer
 Rows (top → bottom): Reconstructed RGB image | Amplitude visualization (magnitude/statistics) | Phase visualization | Zoomed phase residual (illustrating preserved structure)
 See attached figure for the complete visualization.
 
-[Figure: Frequency-domain visualization](https://github.com/user-attachments/files/24428383/22_english.pdf)
 ### Key Observations and Analysis
 Amplitude vs. phase: The amplitude (magnitude) spectrum concentrates global, slowly varying statistics (brightness, contrast, coarse color/texture) that are strongly influenced by scanner/protocol differences. The phase spectrum encodes relative alignment across frequencies and largely determines spatial structure (edges, shapes, and geometry).
 Effect of amplitude manipulation: Replacing or perturbing amplitude statistics transfers appearance/style (color, contrast, coarse texture) while preserving phase—hence anatomical boundaries and local morphology remain visually consistent in the frequency‑domain result compared to the spatial‑domain transfer.
