@@ -53,7 +53,7 @@ Objective: To visually evaluate how amplitude‑based frequency‑domain operati
 Method: For a paired source/target example, we (1) perform a spatial‑domain style transfer, (2) perform a frequency‑domain style transfer by swapping/perturbing amplitude statistics while keeping phase fixed, and (3) visualize reconstructed RGB images, amplitude maps, and phase maps. A zoomed phase‑residual highlights preserved structural cues.
 Data: Example fundus image pair drawn from the datasets used in our study (multi‑center fundus images).
 ### Visualization (figure)
-<img width="1000" height="1000" alt="myplot11" src="https://github.com/user-attachments/assets/2de694ec-b1b1-4a44-abe9-1a84d3c568c1" />
+<img width="700" height="1000" alt="myplot11" src="https://github.com/user-attachments/assets/2de694ec-b1b1-4a44-abe9-1a84d3c568c1" />
 Layout (columns left → right): Source Domain | Target Domain | Spatial‑Domain Style Transfer | Frequency‑Domain Style Transfer
 Rows (top → bottom): Reconstructed RGB image | Amplitude visualization (magnitude/statistics) | Phase visualization | Zoomed phase residual (illustrating preserved structure)
 See attached figure for the complete visualization.
