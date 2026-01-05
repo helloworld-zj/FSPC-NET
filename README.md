@@ -28,6 +28,8 @@ Performance variation across the four fundus domains is visualized below.
 **4. On Domain 4:**  
 <img width="1500" height="500" alt="myplot4" src="https://github.com/user-attachments/assets/01906785-d073-470a-a37e-a99be85f5620" />
 
+
+
 ### Key Findings
 1. **EMA Momentum (γ)**  
    The default value **γ = 0.9** achieves the best balance across all four domains, maximizing inter-domain consistency while maintaining strong performance.
@@ -51,8 +53,7 @@ Objective: To visually evaluate how amplitude‑based frequency‑domain operati
 Method: For a paired source/target example, we (1) perform a spatial‑domain style transfer, (2) perform a frequency‑domain style transfer by swapping/perturbing amplitude statistics while keeping phase fixed, and (3) visualize reconstructed RGB images, amplitude maps, and phase maps. A zoomed phase‑residual highlights preserved structural cues.
 Data: Example fundus image pair drawn from the datasets used in our study (multi‑center fundus images).
 ### Visualization (figure)
-<img width="1500" height="500" alt="myplot11" src=![Snipaste_2026-01-05_15-02-11](https://github.com/user-attachments/assets/bfb4a7e7-91ca-4d2d-9445-78991ad31c69)
->
+<img width="1500" height="500" alt="myplot11" src="https://github.com/user-attachments/assets/2de694ec-b1b1-4a44-abe9-1a84d3c568c1" />
 Layout (columns left → right): Source Domain | Target Domain | Spatial‑Domain Style Transfer | Frequency‑Domain Style Transfer
 Rows (top → bottom): Reconstructed RGB image | Amplitude visualization (magnitude/statistics) | Phase visualization | Zoomed phase residual (illustrating preserved structure)
 See attached figure for the complete visualization.
