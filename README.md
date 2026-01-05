@@ -40,3 +40,26 @@ Performance variation across the four fundus domains is visualized below.
 
 ### Conclusion  
 The sensitivity analysis validates the effectiveness of the selected hyperparameters in multi-center scenarios. Our choices reflect a balanced trade-off among domain-specific performances rather than optimizing for a single domain, offering a practical reference for deploying the model across diverse clinical centers in the future.
+
+
+---
+
+## Supplementary Experiments: Visualizations of frequency-domain style transfer
+This supplementary figure provides qualitative validation of our frequency‑domain style‑transfer procedure, comparing spatial‑domain and frequency‑domain (amplitude‑based) transfers and showing the associated amplitude and phase visualizations to support the claim that amplitude manipulations change appearance while phase preserves structural content.
+### Experiment Details
+Objective: To visually evaluate how amplitude‑based frequency‑domain operations affect appearance (style) versus content (anatomical structure) compared with a spatial‑domain style‑transfer baseline.
+Method: For a paired source/target example, we (1) perform a spatial‑domain style transfer, (2) perform a frequency‑domain style transfer by swapping/perturbing amplitude statistics while keeping phase fixed, and (3) visualize reconstructed RGB images, amplitude maps, and phase maps. A zoomed phase‑residual highlights preserved structural cues.
+Data: Example fundus image pair drawn from the datasets used in our study (multi‑center fundus images).
+### Visualization (figure)
+Layout (columns left → right): Source Domain | Target Domain | Spatial‑Domain Style Transfer | Frequency‑Domain Style Transfer
+Rows (top → bottom): Reconstructed RGB image | Amplitude visualization (magnitude/statistics) | Phase visualization | Zoomed phase residual (illustrating preserved structure)
+See attached figure for the complete visualization.
+[绘图22_english.pdf](https://github.com/user-attachments/files/24428383/22_english.pdf)
+
+### Key Observations and Analysis
+Amplitude vs. phase: The amplitude (magnitude) spectrum concentrates global, slowly varying statistics (brightness, contrast, coarse color/texture) that are strongly influenced by scanner/protocol differences. The phase spectrum encodes relative alignment across frequencies and largely determines spatial structure (edges, shapes, and geometry).
+Effect of amplitude manipulation: Replacing or perturbing amplitude statistics transfers appearance/style (color, contrast, coarse texture) while preserving phase—hence anatomical boundaries and local morphology remain visually consistent in the frequency‑domain result compared to the spatial‑domain transfer.
+Phase residual: The zoomed residual emphasizes that structural elements (vessel/optic‑disc edges and morphology) are better retained after amplitude‑based transfer.
+Empirical scope: This decomposition is an inductive bias rather than an absolute separation; its effectiveness is stronger when applied to early encoder features that retain H×W spatial topology.
+### Conclusion
+The visualization provides qualitative evidence that amplitude‑based frequency operations can simulate domain appearance shifts while largely preserving anatomical content, supporting their use as a lightweight augmentation/robustness tool in multi‑center medical imaging. However, this is a qualitative validation—quantitative cross‑domain performance metrics and structural similarity analyses should complement these results.
