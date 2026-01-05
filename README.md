@@ -54,6 +54,7 @@ Method: For a paired source/target example, we (1) perform a spatial‑domain st
 Data: Example fundus image pair drawn from the datasets used in our study (multi‑center fundus images).
 ### Visualization (figure)
 <img width="700" height="1000" alt="myplot11" src="https://github.com/user-attachments/assets/2de694ec-b1b1-4a44-abe9-1a84d3c568c1" />
+
 This figure illustrates qualitative validation of our frequency‑domain style transfer. It compares: (1) the original source image, (2) a target-domain example, (3) a spatial‑domain style‑transfer result, and (4) a frequency‑domain style‑transfer result produced by swapping or perturbing amplitude statistics in the Fourier domain while preserving phase. For each column we show the reconstructed RGB image, the amplitude visualization, and the phase visualization; a zoomed phase‑residual highlights preserved structural details.
 
 ### Key Observations and Analysis
